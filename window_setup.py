@@ -14,7 +14,7 @@ def setup_window(self):
     if bg_photo:
         tk.Label(self.root, image = bg_photo).place(x = 0, y = 0)
         self.bg_photo = bg_photo
-        
+
     else:
         self.root.config(bg = "yellow")
 
