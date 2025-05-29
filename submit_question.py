@@ -15,7 +15,7 @@ def submit_question(self):
         letter_d = self.entries["d"].get()
         correct = self.entries["correct"].get().lower()
 
-        if not all([question, a, b, c, d, correct]):
+        if not all([question, letter_a, letter_b, letter_c, letter_d, correct]):
             messagebox.showerror("Error", "Please fill in all fields")
             return
 
