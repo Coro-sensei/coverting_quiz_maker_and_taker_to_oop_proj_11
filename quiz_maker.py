@@ -12,3 +12,7 @@ class QuizMaker:
         self.window_width = 1600
         self.window_height = 800
         self.root.resizable(False, False)
+
+        self.setup_window()
+        self.load_fonts()
+        self.create_widgets()
