@@ -9,5 +9,5 @@ from quiz_maker import QuizMaker
 
 if __name__ == "__main__":
     root = tk.Tk()
-    app = QuizMakerApp(root)
+    app = QuizMaker(root)
     root.mainloop()
