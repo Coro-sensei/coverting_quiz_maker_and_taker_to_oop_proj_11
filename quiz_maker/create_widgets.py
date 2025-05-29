@@ -5,7 +5,7 @@ import tkinter as tk
 from tkinter import messagebox
 from PIL import Image, ImageTk
 import tkinter.font as tkFont
-from quiz_maker import QuizMaker
+from quiz_maker.quiz_maker import QuizMaker
 
 def create_widget(self):
         self.central_frame = tk.Frame(self.root, bg="yellow")
