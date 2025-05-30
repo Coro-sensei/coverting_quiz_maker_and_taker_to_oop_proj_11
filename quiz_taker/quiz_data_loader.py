@@ -3,11 +3,11 @@
 import os
 from tkinter import messagebox
 
-def load_quiz_data(file_path="quiz_maker_data.txt"):
+def load_quiz_data(file_path="../quiz_maker/quiz_maker_data.txt"):
     quiz_data = []
 
     if not os.path.exists(file_path):
-        messagebox.showerror("Error", "Run quiz maker first to create questions!")
+        messagebox.showerror("Error", f"Quiz data file not found at:\n{file_path}\nRun quiz maker first to create questions!")
         return []
 
     with open(file_path, "r") as file:
