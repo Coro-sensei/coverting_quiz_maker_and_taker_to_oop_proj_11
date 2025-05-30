@@ -1,0 +1,1 @@
+# Helps to find image
