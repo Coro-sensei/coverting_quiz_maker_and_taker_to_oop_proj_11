@@ -1,12 +1,7 @@
 # Main
 
 import tkinter as tk
-from tkinter import messagebox
-from tkinter import font as tkFont
-from PIL import ImageTk
-from data_manager import QuizManager
-from utilities import load_image
-import os
+from user_inter import QuizMakerGUI
 
 
 if __name__ == "__main__":
