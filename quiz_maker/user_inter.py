@@ -3,7 +3,7 @@
 import tkinter as tk
 from tkinter import messagebox
 from utilities import load_image, load_fonts
-from data_manager import QuizDataManager
+from data_manager import QuizManager
 
 class QuizMakerGUI:
     def __init__(self, root):
@@ -12,7 +12,7 @@ class QuizMakerGUI:
         self.root.geometry("1600x800")
         self.root.resizable(False, False)
 
-        self.manager = QuizDataManager()
+        self.manager = QuizManager()
         self.label_font, self.entry_font, self.button_font = load_fonts()
 
         self.background_image = load_image("assets/pokeball_bg.jpeg", (1600, 800))
